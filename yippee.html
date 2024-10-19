@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yippee!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="message-container" id="messageContainer">
+        <div class="message-box">
+            <span class="close-button" onclick="closeMessage()">&times;</span>
+            <h2>Yippee!</h2>
+            <p>I love you too, baby! 💕</p>
+        </div>
+    </div>
+    <div class="appreciation-message">
+        <p>Thank you for being the most wonderful part of my life. You're amazing in every way, and I love you more than words can say.</p>
+    </div>
+    <button class="plans-button" onclick="window.location.href='plans.html'">Click to see what I have planned</button>
+    <script>
+        function closeMessage() {
+            document.getElementById('messageContainer').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
